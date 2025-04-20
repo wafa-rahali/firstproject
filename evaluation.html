@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Evaluation d'un modele</title>
+</head>
+<body>
+    <form action="enregistre.php" method="post">
+        <fieldset>
+            <legend><b>Evaluation d'un modele</b></legend>
+            <tr>
+                <td>Numero Permis </td>
+                <td><input type="number" name="npermis"></td>
+                <td>Modele testé</td>
+                <td>
+                    <select name="op">
+                    <option selecte>Choisir un modele</option>   
+                    <option >WALLIS IRIS</option>
+                    <option >WALLIS 619</option>
+                    <option >WALLIS 216</option>
+                    
+                </select>
+                </td>
+            </tr><br>
+            <tr>
+                <td>Note attribuées</td>
+            </tr><br>
+            <tr>
+                <td>Sécurité:</td>
+                <td><input type="number" name="s"></td>
+                <td>Conduite</td>
+                <td><input type="number" name="c"></td>
+                <td>Confort</td>
+                <td><input type="number" name="cf"></td>
+
+            </tr><br>
+            <tr>
+                <td>Je ne suis pas un robot:</td>
+                <td><input type="checkbox" name="robot"></td>
+            </tr><br>
+            <tr>
+                <td><input type="submit" value="Ajouter"></td>
+                <td><input type="submit" value="Annuler"></td>
+
+            </tr>
+           
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

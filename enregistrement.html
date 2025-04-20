@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enregistrement d'un testeur</title>
+</head>
+<body>
+    <form action="enregistre.php" method="post">
+        <fieldset>
+            <legend><b>Enregistrement d'un testeur</b></legend>
+            <tr>
+                <td>Numero permis</td>
+                <td><input type="number" name="npermis" required></td>
+            </tr> <br>
+            <tr>
+                <td>Nom</td>
+                <td><input type="text" name="nom" required></td>
+            </tr><br>
+            <tr>
+                <td>Prenom</td>
+                <td><input type="text" name="Prenom" required></td>
+            </tr><br>
+            <tr>
+                <td>Genre</td>
+                <tr> 
+                    <input type="radio" name="genre" value="f">feminin
+                    <input type="radio" name="genre" value="m">masculin
+            </tr><br>
+            <tr>
+                <td><input type="submit" value="Ajouter"></td>
+                <td><input type="submit" value="Annuler"></td>
+
+            </tr><br>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
